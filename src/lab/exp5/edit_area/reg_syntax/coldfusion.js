@@ -17,7 +17,7 @@ editAreaLoader.load_syntax["coldfusion"] = {
 			'DOES', 'else', 'EQ', 'EQUAL', 'EQUALTO', 'EQV', 'FALSE', 'for', 'GE', 
 			'GREATER', 'GT', 'GTE', 'if', 'IMP', 'in', 'IS', 'LE', 'LESS', 'LT', 'LTE', 
 			'MOD', 'NEQ', 'NOT', 'OR', 'return', 'switch', 'THAN', 'TO', 'TRUE', 'var', 
-			'while', 'XOR'
+			"while", "XOR"
 		]
 		,'functions' : [
 			'Abs', 'ACos', 'ArrayAppend', 'ArrayAvg', 'ArrayClear', 'ArrayDeleteAt', 'ArrayInsertAt', 
