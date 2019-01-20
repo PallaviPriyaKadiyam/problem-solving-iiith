@@ -1,7 +1,6 @@
 /***************************************************************************
  * (c) 2008 - file created by Christoph Pinkel, MTC Infomedia OHG.
- *
- * You may choose any license of the current release or any future release
+ * * You may choose any license of the current release or any future release
  * of editarea to use, modify and/or redistribute this file.
  *
  * This language specification file supports for syntax checking on
@@ -45,8 +44,8 @@ editAreaLoader.load_syntax["perl"] = {
 			]
 	},
 	'OPERATORS' :
-		[ '+', '-', '/', '*', '=', '<', '>', '!', '||', '.', '&&',
-			' eq ', ' ne ', '=~' ],
+		[ "+", "-", "/", "*", "=", "<", ">", "!", "||", ".", "&&",
+			" eq ", " ne ", "=~" ],
 	'DELIMITERS' :
 		[ '(', ')', '[', ']', '{', '}' ],
 	'REGEXPS' :
@@ -58,7 +57,7 @@ editAreaLoader.load_syntax["perl"] = {
 			'class' : 'scopingnames',
 			'modifiers' : 'g', 'execute' : 'before' },
 		'scalars' : { 'search': '()(\\\$[a-zA-Z0-9_:]*)()',
-			'class' : 'vars',
+			"class" : "vars",
 			'modifiers' : 'g', 'execute' : 'after' },
 		'arrays' : { 'search': '()(@[a-zA-Z0-9_:]*)()',
 			'class' : 'vars',
