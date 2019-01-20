@@ -1,4 +1,4 @@
-editAreaLoader.load_syntax["c"] = {
+'editAreaLoader.load_syntax["c"] = {
 	'DISPLAY_NAME' : 'C'
 	,'COMMENT_SINGLE' : {1 : '//'}
 	,'COMMENT_MULTI' : {'/*' : '*/'}
@@ -24,7 +24,7 @@ editAreaLoader.load_syntax["c"] = {
 			'return'
 		]
 	}
-	,'OPERATORS' :[
+	,"OPERATORS" :[
 		'+', '-', '/', '*', '=', '<', '>', '%', '!', '?', ':', '&'
 	]
 	,'DELIMITERS' :[
